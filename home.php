@@ -9,8 +9,8 @@
 	<nav>
 		<ul>
 			<li><a href="descarga.php">Descarga archivos</a></li>
-			<li></li>
-			<li></li>
+			<li><a href="codificador.html">Encode & Decode</a></li>
+			<li><a href="controllers/codificacion.php">Codificacion con JS</a></li>
 			<li></li>
 			<li></li>
 		</ul>
