@@ -11,12 +11,17 @@
 	</header>
 	<section>
 		<h4>LOGIN</h4>
-		<form method="post" action="codificacion.php" onsubmit="onEnviar()" >
+		<form method="post" action="codificacion.php" onsubmit="return false; " >
 			<input id="variable" name="variable" type="hidden" />
 			<input type="text" name="user" placeholder="User" />
 			<input id="pass" type="password" name="pass" placeholder="Password" />
-			<input type="submit" value="SING IN" />
+			<input type="submit" value="SING IN" onclick="onEnviar()" />
 		</form>
+	</section>
+	<section>
+		<h2>Tu contraseña</h2>
+		<p>Tu contraseña es: <?= $contra ?></p>
+		<p>Mi variable de JS: <?= @$_POST['variable'] ?></p>
 	</section>
 	<footer>
 		<script type="text/javascript" src="../assets/js/node_modules/crypto-js/crypto-js.js"></script>

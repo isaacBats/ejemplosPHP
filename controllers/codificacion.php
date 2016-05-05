@@ -8,7 +8,7 @@
 
 	function contra( $usuario ){
 
-		return $usuario['pass'];
+		return @$usuario['pass'];
 	}
 
 

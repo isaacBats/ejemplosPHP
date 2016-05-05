@@ -4,10 +4,15 @@ function onEnviar(){
 
 	var pass = document.getElementById("pass").value;
 	var pwd = str2rstr_utf16le(pass);
+	
+	
 	var hash = CryptoJS.HmacSHA1(pwd, pwd);
+	
+	
 
 	var encodedPassword = CryptoJS.enc.Base64.stringify(hash);
-	alert(encodedPassword);
+
+	console.log( encodedPassword );
 }
 
 function str2rstr_utf16le(input) {
