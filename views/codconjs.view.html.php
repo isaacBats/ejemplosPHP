@@ -12,12 +12,14 @@
 	<section>
 		<h4>LOGIN</h4>
 		<form method="post" action="codificacion.php" onsubmit="onEnviar()" >
+			<input id="variable" name="variable" type="hidden" />
 			<input type="text" name="user" placeholder="User" />
-			<input type="password" name="pass" placeholder="Password" />
+			<input id="pass" type="password" name="pass" placeholder="Password" />
 			<input type="submit" value="SING IN" />
 		</form>
 	</section>
 	<footer>
+		<script type="text/javascript" src="../assets/js/node_modules/crypto-js/crypto-js.js"></script>
 		<script type="text/javascript" src="../assets/js/codconjs.js"></script>
 		<p><strong>Powered by Isaac Batista <a href="https://twitter.com/codeisaac" target="_blank">@codeisaac</a></strong></p>
 	</footer>
