@@ -11,7 +11,7 @@
 
 		$path = __DIR__ . '/../public/data/' . $archivo;
 		$zip = new ZipArchive();
-
+		
 		if ( $zip->open( $path, ZipArchive::CREATE ) !== TRUE ) {
 			return false;
 		}

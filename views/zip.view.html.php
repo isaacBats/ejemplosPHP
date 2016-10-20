@@ -8,7 +8,7 @@
 	<h1>Descargar ZIP</h1>
 	<p>Este ejercicio es para crear y descargar un archivo .zip que se crea con archivos de diferentes rutas.</p>
 
-	<a href="../controllers/filezip.php?archivo=images.zip">Descargar archivo</a>
+	<a href="../controllers/filezip.php?archivo=terminal.png">Descargar archivo</a>
 	
 </body>
 </html>
